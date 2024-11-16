@@ -102,7 +102,7 @@ def get_phish_evaluation(subject: str, mail: str) -> str:
     {
         "role": "user",
         "content": (
-                "The following email has been forwarded once. Do you think the initial first email is phishing? Please do not add any formatting to your response. "
+                "The following email has been forwarded once and attachments might be removed in the process of forwarding. Do you think the initial first email is phishing? Please do not add any formatting to your response. "
                 "The Subject is: " + subject +""
                 "The Mail is: " + mail +""
         ),
