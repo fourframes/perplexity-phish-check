@@ -48,11 +48,6 @@ Copy the provided `sample.env` file, update the variables according to your setu
 
 To automate phishing checks, you can schedule the script to run at regular intervals using tools like cron jobs (Linux/macOS) or Task Scheduler (Windows). This ensures that new emails are regularly retrieved and evaluated.
 Example Cron Job (Linux/macOS)
-To run the script every 10 minutes:
-
-```*/10 * * * * /usr/bin/python3 /path/to/perplexity-phish-check/main.py```
-
-This will check the mailbox every 10 minutes and send new emails to Perplexity AI for phishing evaluation.
 
 ### Important Notes
 
