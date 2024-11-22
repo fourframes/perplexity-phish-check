@@ -53,3 +53,8 @@ Example Cron Job (Linux/macOS)
 
 - Email Retention: The script does not delete or move emails from the dedicated mailbox after processing them. You may need to manually manage or archive these emails based on your needs.
 - Security: Ensure that sensitive information such as passwords and API keys are stored securely in your .env file and never hardcoded in the source code.
+
+## Feature Ideas
+
+- **Direct Response to Sender:** Instead of sending phishing evaluation results to a predefined email address, implement functionality to respond directly to the original sender of the email.
+- **Whitelist Management:** Add support for maintaining a whitelist of email addresses or domains that are authorized to request phishing checks, ensuring only trusted sources can trigger evaluations.
