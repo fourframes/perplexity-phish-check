@@ -58,3 +58,4 @@ Example Cron Job (Linux/macOS)
 
 - **Direct Response to Sender:** Instead of sending phishing evaluation results to a predefined email address, implement functionality to respond directly to the original sender of the email.
 - **Whitelist Management:** Add support for maintaining a whitelist of email addresses or domains that are authorized to request phishing checks, ensuring only trusted sources can trigger evaluations.
+- **Local email files:** Add support to analyze a local email file instead of polling emails from a server. 
